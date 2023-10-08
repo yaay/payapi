@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #37536b;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+body {
+    background-color: #eef3f9 !important;
+}
+
+
+.space-between {
+    justify-content: space-between !important;
+}
+
+.phone-img {
+    width: 25rem;
+    height: auto;
+}
+
+.hero-font-size {
+    font-weight: 400 !important;
+}
+
+.hero-input-width {
+    width: 70% !important;
+}
+
+.btn-rounded-radius {
+    border-radius: 0 10rem 10rem 0 !important;
+}
+
+.input-rounded-radius {
+    border-radius: 10rem 0 0 10rem !important;
+}
+
+.hero-contact>h6 {
+    color: gray !important;
+}
+
+.hero-contact a {
+    color: var(--primary-color) !important;
+}
+
+.second-page {
+    background-color: #1c262f !important;
+    /* width: 100vw !important; */
+}
+
+.logo-grid img {
+    filter: brightness(0) invert(1);
+}
+
+.logo-grid img:nth-child(2),
+.logo-grid img:nth-child(4),
+.logo-grid img:nth-child(5),
+.logo-grid img:nth-child(6) {
+    max-height: 2.5rem;
+    width: auto;
+}
+
+.logo-grid img:nth-child(4),
+.logo-grid img:nth-child(6) {
+    max-width: 9rem;
+}
+
+.logo-grid img:nth-child(1),
+.logo-grid img:nth-child(3) {
+    max-width: 3rem;
+    height: auto;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem !important;
+}
+
+.p3-imgs {
+    max-width: 25rem;
+    height: auto;
+}
+
+.p3-imgs2 {
+    max-height: 18rem;
+    width: auto;
+    margin: 0 5rem;
+}
+
+.icons-imgs {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    /* padding: 1rem; */
+    height: 6rem;
+    width: 6rem;
+    ;
+}
+
+.icons-imgs>img {
+    width: auto;
+    height: 3rem;
+    filter: brightness(0) invert(1);
+}
+
+
+.social-icons>img {
+    width: 1.5rem;
+    height: auto;
+    filter: brightness(0) invert(1);
+}
+
+@media (max-width: 776px) {
+
+    .hero-input-width {
+        width: 80% !important;
+    }
+
+    .logo-grid img:nth-child(2),
+    .logo-grid img:nth-child(4),
+    .logo-grid img:nth-child(5),
+    .logo-grid img:nth-child(6) {
+        max-height: 2rem;
+        width: auto;
+    }
+
+    .logo-grid img:nth-child(4),
+    .logo-grid img:nth-child(6) {
+        max-width: 7rem;
+    }
+
+    .logo-grid img:nth-child(1),
+    .logo-grid img:nth-child(3) {
+        max-width: 3rem;
+        height: auto;
+    }
+
+}
